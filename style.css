@@ -1,0 +1,62 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  
+  .Container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    flex-direction: column;
+    background-color: #1a1919;
+  }
+  
+  
+  #clockHeading {
+    padding: 17px;
+    font-size: 29px;
+    font-family: sans-serif;
+    color: white;
+  }
+  
+  
+  #Clock {
+    /* font-size: 32px; */
+    width: 203px;
+    height: 98px;
+    background: #308feb;
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 0px 7px #257bcf;
+    font-family: sans-serif;
+    flex-direction: column;
+  }
+  
+  
+  #clockDate{
+    font-size: 14px;
+    position: relative;
+    bottom: 6px;
+    font-family:"cursive";
+  }
+  
+  
+  #clockTime {
+    display: inline-flex;
+  }
+  
+  
+  #inputTime {
+    font-size: 32px;
+  }
+  
+  
+  #amPm {
+    font-size: 18px;
+    padding-left: 4px;
+    padding-top: 12px;
+  }
